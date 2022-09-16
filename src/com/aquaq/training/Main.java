@@ -1,7 +1,5 @@
 package com.aquaq.training;
 
-import com.aquaq.training.StringEvaluation;
-
 import java.util.Scanner;
 
 public class Main {

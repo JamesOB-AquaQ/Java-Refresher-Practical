@@ -1,6 +1,6 @@
 package com.aquaq.training;
 
-//import com.aquaq.training.exercises.StringEvaluation;
+import com.aquaq.training.StringEvaluation;
 
 import java.sql.SQLOutput;
 import java.util.Scanner;
@@ -28,7 +28,7 @@ public class StringExerciseMenu {
             selected = scanner.nextLine();
             switch (selected) {
                 case OPTION_FIND_MAX_CHAR:
-                    stringEvaluation.findMaxChar(scanner);
+                    System.out.println("\nThe first Maximum Occurring Character = " +  stringEvaluation.findMaxChar(scanner));
                     break;
                 case OPTION_CHECK_ANAGRAM:
                     if(stringEvaluation.checkAnagram(scanner))
